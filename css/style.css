@@ -138,7 +138,13 @@ nav {
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
+  text-decoration: none;
+  color: rgba(137, 92, 72, 1);
+  font-size: 38px;
+  
 }
+
+
 
 .footer {
   display: flex;
