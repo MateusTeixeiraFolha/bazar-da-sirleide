@@ -18,24 +18,16 @@
     <nav>
         <div class="logo">
             <img src="./images/logo.svg">
-            <ul>
-                <li>
                     <a href="#about-us">
                         Sobre Nós
                     </a>
-                </li>
-                <li>
                     <a href="#prod">
                         Catálogo
                     </a>
-                </li>
-                <li>
                     <a href="#team">
                         Contate-nos
                     </a>
-                </li>
-
-            </ul>
+                            
         </div>
     </nav>
     <div class="welcome">
@@ -150,34 +142,7 @@
 
     </footer>
 
-    <script>
-        const iconsLinkedin = document.getElementsByClassName('linkedin');
-        const iconsGithub = document.getElementsByClassName('github');
 
-        for (let i = 0; i < iconsGithub.length; i++) {
-            iconsGithub[i].addEventListener('mouseout', () => {
-                const child = iconsGithub[i].children[0];
-                child.src = 'images/github.svg';
-            });
-
-            iconsGithub[i].addEventListener('mouseover', () => {
-                const child = iconsGithub[i].children[0];
-                child.src = 'images/github-hover.svg';
-            });
-        }
-
-        for (let i = 0; i < iconsLinkedin.length; i++) {
-            iconsLinkedin[i].addEventListener('mouseout', () => {
-                const child = iconsLinkedin[i].children[0];
-                child.src = 'images/linkedin.svg';
-            });
-
-            iconsLinkedin[i].addEventListener('mouseover', () => {
-                const child = iconsLinkedin[i].children[0];
-                child.src = 'images/linkedin-hover.svg';
-            });
-        }
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

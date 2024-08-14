@@ -25,25 +25,6 @@ nav {
   align-items: center;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-  text-decoration: none;
-  width: 100%;
-}
-
-
-li:hover {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.logo li a {
-  text-decoration: none;
-  color: rgba(137, 92, 72, 1);
-}
 
 .logo {
   display: flex;
@@ -51,12 +32,19 @@ li:hover {
   width: 100%;
   background-color:rgba(255, 231, 236, 1);
 }
-.logo li{
-  margin-left: 10%;
-  width: 20%;
-  font-size: 30px;
+
+
+.logo a:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 
+.logo a {
+  text-decoration: none;
+  color: rgba(137, 92, 72, 1);
+  padding-left: 10%;
+  font-size: 38px;
+}
 
 .sobre {
   /* margin-top: 100px; */
@@ -181,46 +169,36 @@ li:hover {
 
 
 
-
   .welcome {
     padding: 0 28px 28px 28px;
   
   }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    text-decoration: none;
-    width: 100%;
-    margin-top: 10px;
-  }
-  
-  
-  li:hover {
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .logo li a {
-    text-decoration: none;
-    color: rgba(137, 92, 72, 1);
-  }
-  
+
   .logo {
     display: flex;
     align-items: center;
     width: 100%;
     background-color:rgba(255, 231, 236, 1);
   }
-  .logo img{
-    height: 50px;
-    width: 50px;
+  
+  
+.logo a:hover {
+    cursor: pointer;
+    font-weight: bold;
   }
-  .logo li{
-    font-size: 11px;
-    margin-right: 5px;
+  
+  .logo a {
+    text-decoration: none;
+    color: rgba(137, 92, 72, 1);
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  
+  
+  .logo img{
+    height: 120px;
+    width: 120px;
+    padding: 0;
   }
   
   
